@@ -1,6 +1,6 @@
 <template>
   <div class="frontliner-header-sides frontliner-links-container if pt-64">
-    <div class="frontliner-logo"></div>
+    <a href="#" class="frontliner-logo"></a>
   </div>
   <div class="frontliner-top-bar">
     <ul
@@ -14,9 +14,11 @@
     <div class="drawer-container-bottom">
       <button
         @click="toggleDrawer"
-        class="drawer-button drawer-button--settings if p-16"
+        class="global-header-button drawer-button if p-16"
         :class="drawerButtonCSS"
-      ></button>
+      >
+        <ids-icon ui-32 settings></ids-icon>
+      </button>
     </div>
   </div>
 
@@ -180,7 +182,7 @@ export default {
     },
 
     drawerButtonCSS() {
-      return this.drawerIsOpen ? "drawer-button--active" : "";
+      return this.drawerIsOpen ? "global-header-button--active" : "";
     },
   },
 
