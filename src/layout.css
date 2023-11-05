@@ -13,7 +13,7 @@
 
 @media screen and (min-width: 45rem) {
     .main {
-        grid-template-columns: minmax(16rem, 30%) 1fr;
+        grid-template-columns: clamp(16rem, 30%, 24rem) 1fr;
         grid-template-rows: none;
     }
 }
