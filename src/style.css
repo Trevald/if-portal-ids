@@ -1,6 +1,8 @@
 @import '@ids/style-scaffolding'; 
 @import '@ids/style-css-helpers';
 @import '@ids/style-bundle';
-@import './layout.css';
-@import './global-header.css';
 @import './theme-dark.css';
+
+@import './global-header.css';
+
+@import './communication-search.css';
