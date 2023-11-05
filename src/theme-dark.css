@@ -1,0 +1,154 @@
+:root.if.theme-dark {
+    --primitive-dropshadow-400:0 8 24 0 #331e1124;
+    --primitive-dropshadow-300:0 8 12 0 #331e111f;
+    --primitive-dropshadow-200:0 4 8 0 #331e111a;
+
+    --primitive-yellow-500:#e9ad25;
+    --primitive-yellow-400:#fcc74f;
+    --primitive-yellow-300:#f8d077;
+    --primitive-yellow-200:#f7dfa1;
+    --primitive-yellow-100:#f9ebc7;
+
+    --primitive-brown-900:#24150c;
+    --primitive-brown-800:#331e11;
+    --primitive-brown-700:#6e625e;
+    --primitive-brown-600:#9f948f;
+    --primitive-brown-500:#b7aea8;
+
+    --primitive-beige-600:#d6cec8;
+    --primitive-beige-500:#e8e0d9;
+    --primitive-beige-400:#ede6e1;
+    --primitive-beige-300:#f1ece8;
+    --primitive-beige-200:#f6f3f0;
+    --primitive-beige-100:#faf9f7;
+
+    --primitive-blue-500:#1241a2;
+    --primitive-blue-400:#0054f0;
+    --primitive-blue-300:#5a8ae2;
+    --primitive-blue-200:#a8c2f0;
+    --primitive-blue-100:#e1e9f6;
+
+    --primitive-red-500:#812308;
+    --primitive-red-400:#bb320c;
+    --primitive-red-300:#d16547;
+    --primitive-red-200:#f1b398;
+    --primitive-red-100:#f9e3d4;
+
+    --primitive-green-500:#183f1f;
+    --primitive-green-400:#217331;
+    --primitive-green-300:#4b9b5a;
+    --primitive-green-200:#b6d5b5;
+    --primitive-green-100:#e0f0db;
+
+    --primitive-white:#fff;
+
+    /* --- --- --- --- --- --- --- --- --- */
+
+    --system-action-default: var(--primitive-blue-300);
+    --system-action-hovered: var(--primitive-blue-200);
+    --system-action-pressed: var(--primitive-blue-200);
+    --system-action-disabled:#d6cec8;
+
+    --system-selection-default:var(--primitive-blue-300);
+    
+    --system-focus-default:var(--primitive-blue-300);
+    --system-focus-inverted:#faf9f7;
+    
+    --system-feedback-error:#bb320c;
+    --system-feedback-success:#217331;
+    
+    --system-border-strong: var(--primitive-brown-700);
+    --system-border-default:rgba(110,98,94,.6);
+    --system-border-disabled:rgba(110,98,94,.3);
+
+    --system-text-default-default: var(--primitive-beige-600);
+    --system-text-default-quiet:hsla(40,23%,97%,.5);
+    --system-text-default-disabled:hsla(40,23%,97%,.4);
+
+    --system-text-inverted-default:#331e11;
+    --system-text-inverted-quiet:#6e625e;
+    --system-text-inverted-disabled:rgba(110,98,94,.6);
+
+    --system-icon-default-default:#331e11;
+    --system-icon-default-quiet:#6e625e;
+    --system-icon-default-disabled:rgba(110,98,94,.4);
+    --system-icon-inverted-default:#faf9f7;
+    --system-icon-inverted-quiet:#f1ece8;
+    --system-icon-inverted-disabled:#f1ece8;
+
+    --system-alert-error:#f9e3d4;
+    --system-alert-warning:#f9ebc7;
+    --system-alert-success:#e0f0db;
+    --system-alert-info:#e1e9f6;
+    
+    --system-page-default:#f6f3f0;
+    
+    --system-section-light:#faf9f7;
+    --system-section-darker:#f1ece8;
+    --system-section-dark:#e8e0d9;
+    
+    --system-backdrop-dark:rgba(110,98,94,.4);
+
+    --system-palette-accent-100:#e1e9f6;
+    --system-palette-accent-200:#a8c2f0;
+    --system-palette-accent-300:#5a8ae2;
+    --system-palette-accent-400:#0054f0;
+    --system-palette-accent-500:#1241a2;
+
+    /* Done! bg-default */
+    --system-palette-bg-default-100:#282D3A;
+    --system-palette-bg-default-200:#23252D;
+    --system-palette-bg-default-300:#1D1C21;
+    --system-palette-bg-default-400:#171413;
+    --system-palette-bg-default-500:#120B07;
+    --system-palette-bg-default-600:black;
+
+    --system-palette-bg-inverted-100:#b7aea8;
+    --system-palette-bg-inverted-200:#9f948f;
+    --system-palette-bg-inverted-300:#6e625e;
+    --system-palette-bg-inverted-400:#331e11;
+    --system-palette-bg-inverted-500:#24150c;
+
+    /* Done! fg-default*/
+    --system-palette-fg-default-400:var(--primitive-beige-100);
+    --system-palette-fg-default-500:var(--primitive-beige-200);
+    --system-palette-fg-default-600:var(--primitive-beige-300);
+    --system-palette-fg-default-700:var(--primitive-beige-400);
+    --system-palette-fg-default-800:var(--primitive-beige-500);
+    --system-palette-fg-default-900:var(--primitive-beige-600);
+
+    --system-palette-fg-inverted-100:#faf9f7;
+    --system-palette-fg-inverted-200:#f6f3f0;
+    --system-palette-fg-inverted-300:#f1ece8;
+    --system-palette-fg-inverted-400:#ede6e1;
+    --system-palette-fg-inverted-500:#e8e0d9;
+    
+    /* Done! typography-color */
+    --system-typography-color-default:var(--system-text-default-default);
+    --system-typography-color-quiet:var(--system-text-default-quiet);
+    --system-typography-color-disabled:var(--system-text-default-disabled);
+    
+    --system-typography-color-inverted: var(--system-text-inverted-default);
+    --system-typography-color-inverted-quiet: var(--system-text-inverted-quiet);
+    --system-typography-color-inverted-disabled: var(--system-text-inverted-disabled);
+   
+    /* Component specific : Radio button */
+    --ids-radio-button-input-border: 0.0625rem solid var(--system-border-default);
+    --ids-radio-button-input-background-color: var(--system-palette-bg-default-200);
+    --ids-radio-button-checked-input-box-shadow: inset 0 0 0 0.25rem var(--system-palette-bg-default-200);
+    
+    /* Component specific : Radio button */
+    --ids-checkbox-input-background: var(--system-palette-bg-default-200) center center no-repeat;
+    --ids-checkbox-input-border: 0.0625rem solid var(--system-border-default);
+    --ids-checkbox-input-checked-background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16' fill='none'%3E%3Cg clip-path='url(%23clip0_9039_1460)'%3E%3Cpath d='M2 8.8L5.42857 12L14 4' stroke='%2323252d' stroke-width='2.4' stroke-miterlimit='10' stroke-linecap='square'/%3E%3C/g%3E%3Cdefs%3E%3CclipPath id='clip0_9039_1460'%3E%3Crect width='16' height='16' fill='%2323252d'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E");
+    --ids-checkbox-input-checked-hover-background: var(--system-action-hovered) center center no-repeat;
+    --ids-checkbox-input-checked-hover-background-image: var(--ids-checkbox-input-checked-background-image);
+    --ids-checkbox-input-hover-border: 0.125rem solid var(--system-border-strong);
+    /*--ids-checkbox-input-active-border: 0.125rem solid var(--system-palette-accent-500);*/
+
+    /* Component specific : Text input */
+    --ids-input-field-background-color: var(--system-palette-bg-default-200);
+
+    /* Components specific : Button */
+    --ids-button-filled-text-color-active: #331e11b3;
+  }
