@@ -28,25 +28,26 @@
                 Track my Claim 23.0001234
               </div>
 
-              <ul class="if flex-row flex-wrap gap-32" style="list-style: none">
-                <li class="if flex-row gap-8" style="white-space: nowrap">
+              <ul class="communication-search-meta-list">
+                <li class="if flex-row gap-8">
                   <ids-icon ui-16 clock class="if typography quiet"></ids-icon>
                   <span class="if typography ui small quiet"
                     >23.4.2023, 13:37</span
                   >
                 </li>
-                <li class="if flex-row gap-8" style="white-space: nowrap">
+                <li class="if flex-row gap-8">
                   <ids-icon ui-16 user class="if typography quiet"></ids-icon>
                   <span class="if typography ui small quiet"
                     >Claus Pederssen</span
                   >
                 </li>
-                <li
-                  class="if typography ui small quiet flex-row gap-8"
-                  style="white-space: nowrap"
-                >
-                  <ids-icon product-32 patch class="if size-16"></ids-icon>
-                  23.0001234
+                <li class="if flex-row gap-8">
+                  <ids-icon
+                    product-32
+                    patch
+                    class="if typography quiet size-16"
+                  ></ids-icon>
+                  <span class="if typography ui small quiet">23.0001234</span>
                 </li>
               </ul>
             </div>
