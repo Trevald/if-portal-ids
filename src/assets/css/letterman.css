@@ -1,0 +1,12 @@
+.letterman-main {
+    flex: 1 1 auto;
+    display: grid;
+    grid-template-columns: 25% 1fr 25%;
+    grid-column-gap: var(--primitive-space-12);
+}
+
+.letterman-sidebar-meta,
+.letterman-content,
+.letterman-sidebar-templates {
+    padding: var(--primitive-space-12) 0;
+}

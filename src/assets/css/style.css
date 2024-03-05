@@ -3,6 +3,6 @@
 @import '@ids/style-bundle';
 @import './theme-dark.css';
 
-@import './global-header.css';
-
 @import './communication-search.css';
+
+@import './letterman.css';
